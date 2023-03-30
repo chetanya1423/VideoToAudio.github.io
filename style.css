@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: url('Img/microphone-g2a91bbd5b_1920.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.main {
+    width: 689px;
+    height: 255px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 64px;
+}
+.inputUrl {
+    width: 339px;
+    height: 38px;
+    position: relative;
+    top: 40%;
+    left: 13%;
+    border: 2px solid #c3073f;
+    border-radius: 18px;
+    background: #1a1a1d;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.btn {
+    position: relative;
+    top: 59%;
+    width: 163px;
+    left: -24%;
+    height: 32px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    background: #1a1a1d;
+    border: 1px solid #c3073f;
+    color: white;
+}
+.main h1{
+font-size: 40px;
+font-family: 'Mukta', sans-serif;
+color: #950740;
+}
+.info{
+    text-align: center;
+    width: 100%;
+    display: none;
+    margin-top: 50px;
+}
+.info-h1{
+    color: #c3073f;
+}
+.info-h2{
+    margin-top: 20px;
+    color: #c3073f;
+}
+.info-btn{
+    width: 163px;
+    height: 32px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    background: #1a1a1d;
+    border: 1px solid #c3073f;
+}
+.info-a{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:696px){
+    
+   .info{
+    width: 678px;
+   }
+}
+@media(max-width:510px){
+    .info-h1 {
+        color: #c3073f;
+        font-size: 74px;
+    }
+    .main h1 {
+        font-size: 74px;
+        font-family: 'Mukta', sans-serif;
+        color: #950740;
+    }
+    .inputUrl {
+        width: 518px;
+        height: 62px;
+        position: relative;
+        top: 19%;
+        left: 0%;
+        border: 2px solid #c3073f;
+        border-radius: 18px;
+        background: #1a1a1d;
+        font-size: 34px;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    .btn {
+        position: relative;
+        top: 32%;
+        width: 253px;
+        left: 0%;
+        height: 53px;
+        border-radius: 14px;
+        font-size: 30px;
+        font-family: 'Mukta', sans-serif;
+        font-weight: bold;
+        background: #1a1a1d;
+        border: 1px solid #c3073f;
+        color: white;
+    }
+    .info {
+        width: 678px;
+        margin-top: 250px;
+    }
+    .info-h2 {
+        margin-top: 80px;
+        color: #c3073f;
+        font-size: 42px;
+    }
+    .info-btn {
+        width: 265px;
+        height: 61px;
+        border-radius: 14px;
+        font-size: 30px;
+        font-family: 'Mukta', sans-serif;
+        font-weight: bold;
+        margin-top: 50px;
+        background: #1a1a1d;
+        border: 1px solid #c3073f;
+    }
+ }
